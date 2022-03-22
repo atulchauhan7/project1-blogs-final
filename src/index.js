@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 mongoose.connect("mongodb+srv://prakash:MD8GREj5x0NTptFX@cluster0.fg71d.mongodb.net/groupXDatabase?retryWrites=true&w=majority", {
     useNewUrlParser: true
 })
-.then( () => console.log("MongoDb is connected"))
+.then( () => console.log("MongoDb is connected"))  
 .catch ( err => console.log(err) )
 
 app.use('/', route);
