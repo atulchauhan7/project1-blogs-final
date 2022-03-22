@@ -36,7 +36,7 @@ const blogSchema = new mongoose.Schema({
 }); 
 
 module.exports = mongoose.model('Blog', blogSchema); //db collection name will be in blogs
-/////////////////////
+////////////////////////////////////////////////////////
 
 
 
