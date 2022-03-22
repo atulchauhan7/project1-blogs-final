@@ -18,7 +18,7 @@ router.delete('/blogs/:blogId', authMiddleware.validateObjectId,  authMiddleware
 router.delete('/blogs', authMiddleware.authorization, blogController.deleteByQuery); 
 
 router.post('/login', authorController.login); 
-/////////////////////////////////    ///////
+/////////////////////////////////    /////////////////
 
 module.exports = router; 
 
